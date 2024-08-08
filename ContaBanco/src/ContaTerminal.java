@@ -33,5 +33,7 @@ public class ContaTerminal {
 
         System.out.println("Digite o saldo da conta" );
         saldo = Double.parseDouble(scanner.next());
+
+        scanner.close();
     }
 }
