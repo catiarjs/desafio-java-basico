@@ -26,13 +26,13 @@ public class ContaTerminal {
         agencia = scanner.next();
 
         System.out.println("Digite o número da conta" );
-        numero = Integer.parseInt(scanner.next());
+        numero = scanner.nextInt();
 
         System.out.println("Digite o seu nome" );
         nomeCliente = scanner.next();
 
         System.out.println("Digite o saldo da conta" );
-        saldo = Double.parseDouble(scanner.next());
+        saldo = scanner.nextDouble();
 
         scanner.close();
     }
